@@ -15,8 +15,8 @@ WIN_COMBINATIONS = [
     elsif board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
       return false
     end
-    win_combinations.each do |win|
-      if won?(board) == win
+    win_combinations.each do |win_array|
+      if win_array = WIN_COMBINATIONS[0, 1, 2, 3, 4, 5, 6, 7]
         return true
       else
         return false
