@@ -19,3 +19,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       sub_array.each do sub_array.to_ary
     end
   end
+  end
