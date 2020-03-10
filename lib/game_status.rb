@@ -15,7 +15,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     if board.select{|space| space == " " || space.nil?}
       return false
     end
-    WIN_COMBINATIONS.each do |sub_array|
-      
+    WIN_COMBINATIONS.each do index.to_a
     end
+
   end
