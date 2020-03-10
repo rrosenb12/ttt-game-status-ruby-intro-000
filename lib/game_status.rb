@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
       return false
     end
     win_combinations.each do |win|
-      if won?(board) = win
+      if won?(board) == win
         return true
       else
         return false
