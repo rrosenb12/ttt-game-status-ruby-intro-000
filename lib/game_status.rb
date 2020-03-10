@@ -16,6 +16,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return false
     end
     WIN_COMBINATIONS.each do |win_combos|
-      win_combos.class = array
+      if win_combos.class != array
+        return false
     end
   end
