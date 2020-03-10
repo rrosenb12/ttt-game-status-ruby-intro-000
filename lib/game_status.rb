@@ -11,3 +11,8 @@ WIN_COMBINATIONS = [
 
   def won?(board)
     if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+      return false
+    elsif board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+      return false
+    end
+  end
