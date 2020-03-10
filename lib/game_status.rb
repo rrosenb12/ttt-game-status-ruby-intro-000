@@ -30,6 +30,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
         return win_combos
       end
     end
-  else
-    false
   end
