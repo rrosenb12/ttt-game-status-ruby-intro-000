@@ -16,7 +16,9 @@ WIN_COMBINATIONS = [
       return false
     end
     win_combinations.each do |win_array|
-      win_array.to_ary
+      def array(win_array)
+        win_array.to_a
+      end
       if won?(board) == win_array
         return true
       end
