@@ -9,6 +9,8 @@ WIN_COMBINATIONS = [
   [0,3,6], [1,4,7], [2,5,8],
   [0,4,8], [6,4,2]]
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
   def won?(board)
     empty_board = board.all? {|space| space == " "}
   end
