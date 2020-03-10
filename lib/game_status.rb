@@ -10,6 +10,9 @@ WIN_COMBINATIONS = [
   [0,4,8], [6,4,2]]
 
   def won?(board)
+    if board[index].nil? || board[index] == " "
+      return false
+    end
     WIN_COMBINATIONS.each do |win_combo|
     end
   end
