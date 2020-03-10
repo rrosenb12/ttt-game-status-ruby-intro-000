@@ -15,4 +15,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     if board.select{|space| space == " " || space.nil?}
       return false
     end
+    if board == WIN_COMBINATIONS[0]
+      return true
+    end
   end
