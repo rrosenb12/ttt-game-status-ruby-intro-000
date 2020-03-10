@@ -14,4 +14,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def won?(board)
     if board.select{|space| space == " " || space.nil?}
       return false
+    end
   end
