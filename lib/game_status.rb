@@ -19,8 +19,6 @@ WIN_COMBINATIONS = [
       win_array.to_ary
       if won?(board) = win_array
         return true
-      else
-        return false
       end
     end
   end
