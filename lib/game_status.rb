@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
     end
     win_combinations.each do |win_array|
       win_array.to_ary
-      if win_array = WIN_COMBINATIONS[0, 1, 2, 3, 4, 5, 6, 7]
+      if won?(board) = win_array
         return true
       else
         return false
