@@ -10,17 +10,6 @@ WIN_COMBINATIONS = [
   [0,4,8], [6,4,2]]
 
   def won?(board)
-    if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-      return false
-    elsif board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-      return false
-    end
-    win_combinations.each do |win_array|
-      def array(win_array)
-        win_array.to_a
-      end
-      if won?(board) == win_array
-        return true
-      end
+    WIN_COMBINATIONS.each do |win_combo|
     end
   end
