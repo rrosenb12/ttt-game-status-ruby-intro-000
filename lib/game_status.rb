@@ -16,7 +16,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return false
     end
     WIN_COMBINATIONS.each do |sub_array|
-      sub_array.each do sub_array.to_ary
+      
     end
-  end
   end
