@@ -16,6 +16,7 @@ WIN_COMBINATIONS = [
       return false
     end
     win_combinations.each do |win_array|
+      win_array.to_ary
       if win_array = WIN_COMBINATIONS[0, 1, 2, 3, 4, 5, 6, 7]
         return true
       else
