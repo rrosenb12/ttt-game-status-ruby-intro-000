@@ -15,4 +15,11 @@ WIN_COMBINATIONS = [
     elsif board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
       return false
     end
+    win_combinations.each do |win|
+      if won?(board) = win
+        return true
+      else
+        return false
+      end
+    end
   end
