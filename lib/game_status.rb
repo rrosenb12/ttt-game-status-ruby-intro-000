@@ -11,3 +11,4 @@ WIN_COMBINATIONS = [
 
   def won?(board)
     empty_board = board.all? {|X| X == " "}
+  end
