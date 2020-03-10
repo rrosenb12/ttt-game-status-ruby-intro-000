@@ -19,5 +19,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       WIN_COMBINATIONS.each do win_combos.to_a
       end
     end
-
+    if board == WIN_COMBINATIONS[0]
+      return true
+    end
   end
