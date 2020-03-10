@@ -18,4 +18,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     WIN_COMBINATIONS.each do |win_combos|
       win_combos.to_a
     end
+    if win_combos == WIN_COMBINATIONS[0]
+      return true
+    end
   end
