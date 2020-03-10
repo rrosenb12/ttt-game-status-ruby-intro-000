@@ -12,5 +12,6 @@ WIN_COMBINATIONS = [
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
   def won?(board)
-    empty_board = board.all? {|space| space == " "}
+    if board.select{|space| space == " " || space.nil?}
+      return false
   end
