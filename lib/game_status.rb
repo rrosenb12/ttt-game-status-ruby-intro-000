@@ -17,6 +17,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     end
     WIN_COMBINATIONS.each do |win_combos|
       WIN_COMBINATIONS.each do win_combos.to_a
+      end
     end
 
   end
