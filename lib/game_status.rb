@@ -10,5 +10,5 @@ WIN_COMBINATIONS = [
   [0,4,8], [6,4,2]]
 
   def won?(board)
-    empty_board = board.all? {|X| X == " "}
+    empty_board = board.all? {|space| space == " "}
   end
